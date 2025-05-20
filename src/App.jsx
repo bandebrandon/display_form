@@ -47,7 +47,7 @@ const App = () => {
   }
   
   const handleSubmit = async () =>{
-    
+    //TODO: userResponse is rejected as an array when posted but it is an array
     try {
       const response = await db.completed.create({
       user: 'test2',
